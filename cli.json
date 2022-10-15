@@ -1,0 +1,12 @@
+{
+  "log": {
+    "level": "info",
+    "overrides": [
+      {
+        "repo": "re-cli",
+        "hideTimestamp": true,
+        "hideSeverityPrefix": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "iterations": [
+    {
+      "description": "Date",
+      "t": {
+        "text": "2022-10-24"
+      }
+    },
+    {
+      "description": "Boolean true",
+      "t": {
+        "text": "true"
+      }
+    },
+    {
+      "description": "Boolean false",
+      "t": {
+        "text": "false"
+      }
+    },
+    {
+      "description": "Float",
+      "t": {
+        "text": "5.0"
+      }
+    },
+    {
+      "description": "Number",
+      "t": {
+        "text": "11"
+      }
+    },
+    {
+      "description": "Text",
+      "t": {
+        "text": "hello world"
+      }
+    },
+    {
+      "description": "Timestamp",
+      "t": {
+        "text": "2022-10-24T10:55:55"
+      }
+    },
+    {
+      "description": "Time",
+      "t": {
+        "text": "10:55:55"
+      }
+    },
+    {
+      "description": "Multiline quoted Timestamp",
+      "t": {
+        "text": "\"2022-10-24\n10: 55: 55\""
+      }
+    },
+    {
+      "description": "Not a datatype literal",
+      "t": {
+        "text": "abc----"
+      }
+    }
+  ]
+}
+

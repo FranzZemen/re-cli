@@ -1,0 +1,39 @@
+{
+  "name": "@franzzemen/re-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranzZEmen/re-cli.git"
+  },
+  "author": "Franz Zemen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranzZEmen/re-cli/issues"
+  },
+  "homepage": "https://github.com/FranzZEmen/re-cli#readme",
+  "devDependencies": {
+    "@franzzemen/gulp-base": "^12.0.3",
+    "@franzzemen/npmu": "^2.0.13",
+    "@franzzemen/safe-config": "^2.0.45",
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^10.0.0",
+    "@types/object-path": "^0.11.1",
+    "@types/uuid": "^8.3.4",
+    "chai": "^4.3.6",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^8.0.0",
+    "mocha": "^10.0.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@franzzemen/re-common": "^10.2.1",
+    "@franzzemen/re-data-type": "^9.2.0",
+    "@franzzemen/re-expression": "^4.1.5"
+  }
+}
