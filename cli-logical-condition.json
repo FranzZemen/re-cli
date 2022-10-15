@@ -1,0 +1,18 @@
+{
+  "iterations": [
+    {
+      "description": "Simple value logical condition",
+      "t": {
+        "text": "(true = false)",
+        "dataStream": [
+          {
+            "description": "empty object",
+            "data": {},
+            "expectedResult": false
+          }
+        ]
+      }
+    }
+  ]
+}
+

@@ -33,7 +33,10 @@
   },
   "dependencies": {
     "@franzzemen/re-common": "^10.2.1",
+    "@franzzemen/re-condition": "^0.0.31",
     "@franzzemen/re-data-type": "^9.2.0",
-    "@franzzemen/re-expression": "^4.1.5"
+    "@franzzemen/re-expression": "^4.1.7",
+    "@franzzemen/re-logical-condition": "^0.0.30",
+    "@franzzemen/re-rule": "^3.2.5"
   }
 }

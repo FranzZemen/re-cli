@@ -8,7 +8,7 @@ export interface ExpressionCliFormat {
 }
 
 export const executeExpressionCLI: CliFunction<ExpressionCliFormat> = (iteration: ExpressionCliFormat, ec?: ExecutionContextI) => {
-  const log = new LoggerAdapter(ec, 're-expression', 'cli', 'executeExpressionCLI');
+  const log = new LoggerAdapter(ec, 're-cli', 'expression-cli', 'executeExpressionCLI');
   try {
     if (iteration) {
       log.info(`Text to parse: "${iteration.text}"`);

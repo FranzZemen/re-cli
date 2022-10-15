@@ -59,7 +59,7 @@ export function execute<T>() {
       moduleResolution: ModuleResolution.json
     }, defaultEC);
     if (isPromise(configContainer)) {
-      const log = new LoggerAdapter(defaultEC, 're-common', 'cli-common', 'execute');
+      const log = new LoggerAdapter(defaultEC, 're-cli', 'cli-common', 'execute');
       log.error('Unsupported dynamic JSON load or schema validation');
       process.exit(2);
     } else if (isAppConfigSync(configContainer) && configContainer?.log) {
@@ -70,7 +70,7 @@ export function execute<T>() {
   } catch (err) {
     ec = defaultEC;
   }
-  const log = new LoggerAdapter(ec, 're-common', 'cli-common', 'execute');
+  const log = new LoggerAdapter(ec, 're-cli', 'cli-common', 'execute');
 
   log.debug(process.argv, 'argv');
   if (process.argv.length < 4) {
@@ -118,7 +118,7 @@ export function execute<T>() {
 export const breakLine = '-----';
 
 export function cliIterations<T>(cliData: CliFormat<T>, cliFunction: CliFunction<T>, ec?: ExecutionContextI) {
-  const log = new LoggerAdapter(ec, 're-common', 'cli-common', 'cliIterations');
+  const log = new LoggerAdapter(ec, 're-cli', 'cli-common', 'cliIterations');
   log.info('Input Data:');
   log.info(cliData);
   log.info('Iterating');
@@ -156,7 +156,7 @@ export function cliIterations<T>(cliData: CliFormat<T>, cliFunction: CliFunction
 
 export function logParserMessages(parserMessages: ParserMessages, ec?: ExecutionContextI) {
   if (parserMessages) {
-    const log = new LoggerAdapter(ec, 're-common', 'cli-common', 'logParserMessages');
+    const log = new LoggerAdapter(ec, 're-cli', 'cli-common', 'logParserMessages');
     let params: [data?: any, message?: string] = [];
     parserMessages.forEach(parserMessage => {
       params = [];

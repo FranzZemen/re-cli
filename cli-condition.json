@@ -1,0 +1,44 @@
+{
+  "iterations": [
+    {
+      "description": "Simple value condition",
+      "t": {
+        "text": "5 = 5",
+        "dataStream": [
+          {
+            "description": "empty object",
+            "data": {},
+            "expectedResult": true
+          }
+        ]
+      }
+    },{
+      "description": "Simple value condition leveraging synonym 'is'",
+      "t": {
+        "text": "5 is 5",
+        "dataStream": [
+          {
+            "description": "empty object",
+            "data": {},
+            "expectedResult": true
+          }
+        ]
+      }
+    },{
+      "description": "Value/Attribute like",
+      "t": {
+        "text": "text like 'hello*'",
+        "dataStream": [
+          {
+            "description": "empty object",
+            "data": {
+              "text":"hello world"
+            },
+            "expectedResult": true
+          }
+        ]
+      }
+    }
+  ]
+}
+

@@ -11,7 +11,7 @@ export interface DataTypeCliFormat {
 }
 
 export const executeDataTypeCLI: CliFunction<DataTypeCliFormat> = (iteration: DataTypeCliFormat, ec?: ExecutionContextI) => {
-  const log = new LoggerAdapter(ec, 're-data-type', 'cli', 'executeDataTypeCLI');
+  const log = new LoggerAdapter(ec, 're-cli', 'data-type-cli', 'executeDataTypeCLI');
   /*
   let dataRegex = /^(([a-zA-Z]+)[\s\t\r\n\v\f\u2028\u2029]+([a-zA-Z0-9.\-:]+|["']{1}[a-zA-Z0-9.\-:\s\t\r\n\v\f\u2028\u2029]+["']{1}))|([a-zA-Z0-9.\-:]+|["']{1}[a-zA-Z0-9.\-:\s\t\r\n\v\f\u2028\u2029]+["']{1})$/;
   let result2 = dataRegex.exec(iteration);
