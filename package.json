@@ -1,6 +1,6 @@
 {
   "name": "@franzzemen/re-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/FranzZEmen/re-cli#readme",
   "devDependencies": {
-    "@franzzemen/gulp-base": "^12.0.3",
-    "@franzzemen/npmu": "^2.0.13",
+    "@franzzemen/gulp-base": "^12.0.4",
+    "@franzzemen/npmu": "^2.0.15",
     "@franzzemen/safe-config": "^2.0.45",
     "@types/chai": "^4.3.3",
     "@types/mocha": "^10.0.0",
@@ -28,15 +28,18 @@
     "chai": "^4.3.6",
     "gulp": "^4.0.2",
     "gulp-mocha": "^8.0.0",
-    "mocha": "^10.0.0",
+    "mocha": "^10.1.0",
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@franzzemen/re-common": "^10.2.1",
-    "@franzzemen/re-condition": "^0.0.31",
-    "@franzzemen/re-data-type": "^9.2.0",
-    "@franzzemen/re-expression": "^4.1.7",
-    "@franzzemen/re-logical-condition": "^0.0.30",
-    "@franzzemen/re-rule": "^3.2.5"
+    "@franzzemen/re": "^2.0.2",
+    "@franzzemen/re-application": "^1.1.6",
+    "@franzzemen/re-common": "^10.2.4",
+    "@franzzemen/re-condition": "^0.0.35",
+    "@franzzemen/re-data-type": "^9.2.3",
+    "@franzzemen/re-expression": "^4.1.10",
+    "@franzzemen/re-logical-condition": "^0.0.32",
+    "@franzzemen/re-rule": "^3.2.8",
+    "@franzzemen/re-rule-set": "^3.1.9"
   }
 }

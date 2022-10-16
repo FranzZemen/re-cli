@@ -1,7 +1,7 @@
 {
   "iterations": [
     {
-      "description": "Simple rule with attribute and value",
+      "description": "Simple rules with all defaults and just one rule (pretty much looks the same as a rule in text",
       "t": {
         "text": "4.0 < price",
         "dataStream": [
